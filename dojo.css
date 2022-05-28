@@ -1,0 +1,65 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    border-radius: 50%;
+    background-color: rgb(10, 224, 152);
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.row {
+    margin: 20px;
+    padding: 5px;
+    ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    padding: 5px;
+    background-color: rgb(45, 214, 158);
+    margin: 0px 2px 0px 2px;
+    flex-grow: 1
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgb(46, 42, 42);
+    display: flex;
+    align-items: center;
+}
+
+.card-header img {
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: 13px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
